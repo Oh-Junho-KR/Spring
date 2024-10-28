@@ -1,0 +1,30 @@
+File > New > Java Project
+Project Name 설정
+ JRE JavaSE-1.8 선택
+ Module Check X
+
+* 에러 발생
+The project cannot be built until build path errors are resolved
+Unbound classpath container: 'JRE System Library [JavaSE-1.8]' in project 'Programmers'
+
+Project Name 우클릭 > Properties 선택
+좌측 Java Build Path 선택 > Libraries Tab 선택 > unbound JRE Remove 선택 > Add Library 선택 > JRE System Library 선택 > Workspace default JRE 체크 후 Finish 선택
+Apply 선택 > Apply and Close 선택
+
+Programmers/src 우클릭 > New > Class
+Name 설정
+ Public static void main 체크
+ inherited abstract methods 체크
+Finish 선택
+
+* 에러 발생
+The project was not built since its build path is incomplete. Cannot find the class file for java.lang.Object. Fix the build path then try building this project
+The type java.lang.Object cannot be resolved. It is indirectly referenced from required .class files
+
+Project Name 우클릭 > Properties 선택
+좌측 Project Facets 선택 > Convert to faceted form... 선택
+Apply 선택 > Apply and Close 선택
+
+* 한글 깨짐
+Window > Preferences > workspace 입력 > Default (UTF-8) 선택 확인
+Run > Run Configurations > Common Tab 선택 > Ohter : MS949입력 > Apply 선택
