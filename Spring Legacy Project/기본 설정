@@ -1,0 +1,11 @@
+File > New > Spring Legacy Project 선택
+Project Name 설정 ex) SpringMVC > templates : Spring MVC Project 선택 > Next 선택
+ * 에러 사항 : Download Fail 에러 시 STS.ini 파일에 추가
+-vm
+C:\Spring\jdk-23.0.1\bin\javaw.exe
+STS 재실행
+
+ * 에러 사항 : 생성 시 invalid thread access
+https://jdk.java.net/java-se-ri/11-MR3 접속
+좌측 Java SE 11 선택 > Windows 11/x64 Java Development Kit 다운로드
+환경 변수, STS.ini 등 Java 경로 수정
