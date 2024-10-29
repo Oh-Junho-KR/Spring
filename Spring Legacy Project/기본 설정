@@ -14,3 +14,7 @@ C:\Spring\workspace-spring-framework\.metadata\.sts\content\org.springframework.
 https://jdk.java.net/java-se-ri/11-MR3 접속
 좌측 Java SE 11 선택 > Windows 11/x64 Java Development Kit 다운로드
 환경 변수, STS.ini 등 Java 경로 수정
+
+top-level package 설정 ex)com.SpringMvc.controller > Finish 선택
+
+ * 에러 사항 : Can not find the tag library descriptor for "http://java.sun.com/jsp/jstl/core"
