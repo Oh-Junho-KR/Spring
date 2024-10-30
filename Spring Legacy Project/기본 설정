@@ -68,5 +68,5 @@ Spring tool Project > Clean
 
 
 
-최종 해결
+최종 해결 (위 에러 조치 없이 이것만 해도 Tomcat 실행에서 에러는 없어짐)
 root-context.xml, servlet-context.xml https -> http로 전부 수정
