@@ -40,10 +40,6 @@ Window > Properties 선택 > 좌측 General/Workspace 선택 > Text file encodin
 자바 버전 설정
 web.xml 파일 java-version 수정 ex) <java-version>11</java-version>
 
-* 에러 발생 : 자바 버전 호환 (톰캣 404에러에서 이것저것 찾다가 자바 버전 1.8로 수정 MAVEN 호환)
-전체 1.8로 변경 (환경 변수, 자바 빌드 패스 Lib, 컴파일, Facets 1.8로 전부 변경)
-
-
 캐시 설정
 Window > Properties 선택 > 좌측 General/Workspace 선택 > Refresh using native hooks or polling 체크 > Apply 선택
 
@@ -71,3 +67,6 @@ deploy-name, java-output-path, context-root에 프로젝트명 기입
 Spring tool Project > Clean
 
 
+
+최종 해결
+root-context.xml, servlet-context.xml https -> http로 전부 수정
