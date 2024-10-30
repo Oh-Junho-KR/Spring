@@ -22,7 +22,7 @@ top-level package 설정 ex)com.SpringMvc.controller > Finish 선택
 
 * 에러 발생 : Can not find the tag library descriptor for "http://java.sun.com/jsp/jstl/core"
 The superclass "jakarta.servlet.http.HttpServlet" was not found on the Java Build Path
-프로젝트 우클릭 > Properties 선택 > 좌측 Java Build Path 선택 > Library Tab 선택 > Server Runtime 선택 > Next 선택 > VM(서버) 선택 > Finish 선택 > Apply and Close 선택
+프로젝트 우클릭 > Properties 선택 > 좌측 Java Build Path 선택 > Library Tab 선택 > Add Library 선택 > Server Runtime 선택 > Next 선택 > VM(서버) 선택 > Finish 선택 > Apply and Close 선택
 프로젝트 우클릭 > Properties 선택 > 좌측 Project Facets 선택 > 우측 Runtimes Tab 선택 > 서버 체크 후 Apply 선택
 프로젝트 우클릭 > Properties 선택 > 좌측 Java Compiler 선택 > JDK Compiler 버전 Facets와 동일하게 선택 후 Apply 선택
 
