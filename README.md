@@ -1,2 +1,2 @@
-# Spring-Framework
-Spring Framework 학습
+# Spring
+Spring 학습
